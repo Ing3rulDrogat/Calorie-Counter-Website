@@ -1,0 +1,17 @@
+.header-div {
+  display: flex;
+  flex-direction: row;
+  background-color: aqua;
+  align-items: center;
+}
+.greetings-div {
+  margin-left: auto;
+  padding-right: 10px;
+}
+
+.account-png {
+  border-radius: 50px;
+  width: 40px;
+  margin-right: 5px;
+  margin-top: 4px;
+}
