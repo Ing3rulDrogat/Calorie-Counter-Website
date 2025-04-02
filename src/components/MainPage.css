@@ -1,5 +1,47 @@
 .content {
+  font-family: "Playfair Display";
   display: flex;
   margin-left: 20vw;
   margin-right: 20vw;
+  background: linear-gradient(to right, #dae4ee, #cbdff3);
+  margin-top: 50px;
+  padding-left: 10px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
+.info-text {
+  margin-right: 5px;
+  display: inline;
+  margin-bottom: 5px;
+}
+.text-box {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.6);
+  border-radius: 7px;
+}
+
+.text-box::placeholder {
+  text-align: right;
+}
+
+.inputs {
+  margin-bottom: 8px;
+}
+
+.calculate-button {
+  width: 250px;
+  height: 35px;
+  margin-top: 10px;
+
+  border: none;
+  background-color: rgba(90, 165, 90, 0.753);
+  color: white;
+  transition: 0.2s;
+}
+
+.calculate-button:hover {
+  background-color: rgb(62, 80, 62);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 }
